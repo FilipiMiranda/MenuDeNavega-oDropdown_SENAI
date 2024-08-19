@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0%;
+}
+.navbar{
+  box-shadow: 0 4px 8px #ffffff;
+}
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100px;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: rgb(230, 11, 11);
+  margin-left: 20px;
+  font-size: 70px;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.menu a {
+  color: #f8f8f8;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-size: 1.5rem;
+}
+
+.menu-btn {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-btn .btn-line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+body{
+  background-color:rgb(66, 66, 66) ;
+}
+
+.fonte{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic
+}
+nav ul li{
+  position: relative;
+  margin: 0 15px;
+}
+navul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  display: block;
+  transition: color 0.3s;
+}
+nav ul li a:hover{
+  color: #f00;
+}
+
+.img{
+  width: 100px;
+}
+.Produtos{
+  display: flex;
+  gap: 20px;
+
+}
+.Produtos img{
+  max-width: 276px;
+  margin-left: 12px;
+  height: auto;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic
+}
+.fonte2{
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+h2{
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: red;
+}
+nav ul li .dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #333;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  min-width: 160px;
+  padding: 0;
+}
+nav ul li .dropdown-content li{
+  margin: 0;
+}
+nav ul li .dropdown-content li a{
+  padding: 10px 15px;
+}
+nav ul li .dropdown-content li a:hover{
+  background-color: #575757;
+}
+nav ul li:hover .dropdown-content{
+  display: block;
+}
